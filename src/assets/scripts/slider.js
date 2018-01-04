@@ -20,26 +20,4 @@
 (function() {
   'use strict';
   // Your custom JavaScript goes here
-  $('.related-js').slick({
-    responsive: [{
-      breakpoint: 99999,
-      settings: "unslick"
-    },
-      {
-        breakpoint: 641,
-        settings: {
-          centerMode: true,
-          centerPadding: '12%',
-          slidesToShow: 1,
-          arrows: false,
-          infinite: true,
-          autoplay: false,
-          autoplaySpeed: 3000,
-        }
-      }]
-  });
-  $('.related-js').slick('resize');
-  $(window).on('resize orientationchange', function() {
-    $('.related-js').slick('resize');
-  });
 })();
