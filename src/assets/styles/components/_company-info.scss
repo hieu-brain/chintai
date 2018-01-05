@@ -1,0 +1,29 @@
+.company-info{
+  &__image{
+    width: calc-percent(480, 1260);
+    margin-right: calc-percent(40, 1260);
+  }
+  &__content{
+    width: 100%;
+  }
+  .table {
+    width: 100%;
+    max-width: 266px;
+    &-config {
+      text-align: right;
+    }
+    td ,th {
+      padding: 0;
+      border: 0;
+    }
+    & thead th {
+      border-bottom: 0;
+    }
+  }
+  .company-info__content {
+    .h2 {
+      font-size: 2.4rem;
+      font-weight: bold;
+    }
+  }
+}
