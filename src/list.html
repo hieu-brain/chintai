@@ -1,0 +1,1225 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LIST</title>
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="format-detection" content="telephone=no"/>
+
+  <!-- Color the status bar on mobile devices -->
+  <meta name="theme-color" content="#2F3BA2">
+
+  <link rel="stylesheet" href="assets/styles/bootstrap/bootstrap.css">
+  <link rel="stylesheet" href="assets/styles/main.css">
+</head>
+<body class="list">
+<header class="header d-none d-lg-block">
+  <div class="bg-primary">
+    <div class="container">
+      <p class="text-white text-center mb-0 pt-1" style="padding-bottom: 2px;">
+        <small>札幌の中古マンション・賃貸マンション、マンスリーマンション・アパート、投資用マンション、家具家電付賃貸マンション・アパート、短期賃貸マンション。保証人なしでも入居可能。</small>
+      </p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="logo col-lg-4 mt-30">
+        <h1>
+          <img src="assets/images/logo.png" alt="アパマンプラザ" class="img-fluid">
+          <span class="d-none">アパマンプラザ</span>
+          <span><strong>APAMAN PLAZA</strong></span>
+        </h1>
+      </div>
+      <div class="col-lg-8 d-none d-lg-block">
+        <div class="row text-right d-flex justify-content-end mt-20">
+          <span class="telephone"><img src="assets/images/phone.png" class="img-fluid" alt="phone"></span>
+          <p class="phone-number text-black ml-2"><strong>011-513-0007</strong></p>
+        </div>
+        <div class="row text-right d-flex justify-content-end phone-text">
+          <p class="text-right mb-0 mr-20 text-secondary">株式会社アパマンPLAZA 〒064-0809 札幌市中央区南9条西4丁目1-12<br>
+            Eメール：info2@apaman-plaza.co.jp　Tel：0120-015510</p>
+          <p class="bg-primary text-white d-flex align-content-center font-weight-bold header-button">
+            お客様駐車場完備</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<nav class="navbar navbar-expand-lg bg-light text-black">
+  <div class="container d-flex align-items-center">
+    <div class="navbar-left mb-0">
+      <div class="navbar-tool">
+        <div class="navbar-tool__inner d-flex justify-content-between">
+          <a class="navbar-brand d-lg-none" href="#"><img src="assets/images/logo.png" class="img-fluid" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
+                  aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><img src="assets/images/menu-btn.png" alt="" class="img-fluid"></span>
+          </button>
+        </div>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">トップページ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">会社概要</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">スタッフ紹介</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">採用情報</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">お問合わせ</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="navbar-right text-right">
+      <div class="text-right d-lg-flex justify-content-end d-none">
+        <p class="mb-0">【営業時間】 9:15～19:00　<span class="text-pink">日曜日を定休日</span>とさせていただきます。<span class="text-pink">祝日は営業</span>しております。</p>
+      </div>
+      <div class="text-center d-lg-none d-flex justify-content-center">
+        <p class="mb-5 mt-5 mt-lg-10 mb-lg-10">【営業時間】9:15～19:00　<span class="text-pink">日曜定休・祝日営業</span></p>
+      </div>
+    </div>
+  </div>
+</nav>
+<div class="container d-lg-none container-sp ">
+  <h1 class="bg-primary text-white recommend__title h4"><span class="chintai">賃貸</span>おすすめ札幌賃貸マンション</h1>
+</div>
+<div class="container mt-30">
+  <div class="row d-lg-flex flex-lg-row-reverse">
+    <div class="right-container col-lg-10">
+      <section class="recommend ">
+        <div class="menu">
+          <div class="d-flex flex-wrap justify-content-between w-100">
+            <div class="menu-item bg-primary option-display pt-10 pb-10 mb-20">
+              <h4 class="bg-primary text-white recommend__title d-none d-lg-block"><span class="chintai">賃貸</span>おすすめ札幌賃貸マンション
+              </h4>
+              <div class="btn-group mr-15 btn-container" data-toggle="buttons">
+                <label class="btn btn-primary active">
+                  <input checked="checked" type="checkbox"> <span class="d-none d-lg-block">外観で表示</span> <span class="d-lg-none">外観</span>
+                </label>
+                <label class="btn btn-primary">
+                  <input type="checkbox"> <span class="d-none d-lg-block">内観で表示</span> <span class="d-lg-none">内観</span>
+                </label>
+                <label class="btn btn-primary">
+                  <input type="checkbox"> <span class="d-none d-lg-block">間取で表示</span> <span class="d-lg-none">間取</span>
+                </label>
+              </div>
+            </div>
+            <div class="menu-item order-first"><p class="h5">該当 <span class="h3 font-weight-bold">128</span>件</p></div>
+            <div class="menu-item">
+              <a class="btn btn-primary d-lg-none btn-condition" href="#" role="button" data-toggle="collapse" data-target="#filter-form" aria-expanded="true">間取りタイプ</a>
+            </div>
+            <div class="menu-item dropdown drop-container">
+              <label class="dropdown">
+                <select class="form-control">
+                  <option>新着順</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+              </label>
+            </div>
+            <nav aria-label="Page navigation" class="d-none d-lg-block menu-item">
+              <ul class="pagination">
+                <li class="page-item">
+                  <a class="page-link bg-secondary" href="javascript:void(0)" aria-label="Next">
+                  <span aria-hidden="true" class="text-white"><i class="fa fa-angle-right"
+                                                                 aria-hidden="true"></i></span>
+                    <span class="sr-only ">Previous</span>
+                  </a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link bg-secondary" href="javascript:void(0)" aria-label="Last">
+                  <span aria-hidden="true" class="text-white"><i class="fa fa-angle-double-right"
+                                                                 aria-hidden="true"></i></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="container px-0 recommend__list">
+          <div class="row">
+
+            <div class="col-12 d-flex flex-wrap justify-content-between">
+              <ul class="list-item col-12 d-flex flex-wrap justify-content-between">
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-01.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item "><div >
+                  <img src="assets/images/img-02.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item "><div class="">
+                  <img src="assets/images/img-03.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item "><div class="">
+                  <img src="assets/images/img-04.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item "><div class="">
+                  <img src="assets/images/img-05.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item "><div class="">
+                  <img src="assets/images/img-01.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-02.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-03.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-04.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-05.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-01.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-02.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-03.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-04.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-05.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-01.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-02.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-03.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-04.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-05.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <!--// page 2-->
+                <li class="recommend__list__item first-item"><div >
+                  <img src="assets/images/img-05.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-04.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div class="">
+                  <img src="assets/images/img-03.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div class="">
+                  <img src="assets/images/img-02.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div class="">
+                  <img src="assets/images/img-01.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div class="">
+                  <img src="assets/images/img-01.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-02.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-03.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-04.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-05.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-01.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-02.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-03.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-04.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-05.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-01.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-02.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-03.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-04.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-05.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <!--page3-->
+                <li class="recommend__list__item "><div >
+                  <img src="assets/images/img-01.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-02.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item "><div class="">
+                  <img src="assets/images/img-03.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item "><div class="">
+                  <img src="assets/images/img-04.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item "><div class="">
+                  <img src="assets/images/img-05.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item "><div class="">
+                  <img src="assets/images/img-01.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-02.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-03.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-04.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-05.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item "><div >
+                  <img src="assets/images/img-01.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-02.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-03.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-04.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-05.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item "><div >
+                  <img src="assets/images/img-01.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-02.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-03.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-04.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+                <li class="recommend__list__item"><div >
+                  <img src="assets/images/img-05.jpg" class="img-fluid" alt="">
+                  <p class="title">チサンマンション札幌第2</p>
+                  <p class="text">東豊線 学園前駅<br>
+                    札幌市豊平区<br>
+                  </p>
+                  <p class="text">
+                    家具付2DK<br>
+                    賃貸料 <span class="prize">3.5万円/月</span>
+                  </p>
+                  <div class="list-btn">
+                    <a href="#"><img src="assets/images/btn-01.png" alt=""></a>
+                    <a href="#"><img src="assets/images/btn-02.png" alt=""></a>
+                  </div>
+                </div></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="page-menu d-flex justify-content-end justify-content-lg-between">
+        <p class="h5 d-none d-lg-block">該当 <span class="h3 font-weight-bold">128</span>件</p>
+        <nav aria-label="Page navigation" class="menu-item float-right">
+          <ul class="pagination">
+            <li class="page-item">
+              <a class="page-link bg-secondary" href="javascript:void(0)" aria-label="Next">
+                  <span aria-hidden="true" class="text-white"><i class="fa fa-angle-right"
+                                                                 aria-hidden="true"></i></span>
+                <span class="sr-only ">Previous</span>
+              </a>
+            </li>
+            <li class="page-item d-none d-lg-block">
+              <a class="page-link bg-secondary" href="javascript:void(0)" aria-label="Last">
+                  <span aria-hidden="true" class="text-white"><i class="fa fa-angle-double-right"
+                                                                 aria-hidden="true"></i></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="left-side col-lg-2 side">
+      <div class="left-container collapse show" id="filter-form">
+        <div class="bg-light">絞込検索</div>
+        <div class="mt-5 mb-5 font-weight-bold text-blue">賃料</div>
+        <div>
+          <div class="d-flex">
+            <div class="">
+              <label>
+                <select class="form-control">
+                  <option>下限なし</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+              </label>
+            </div>
+            <span class="mt-1">～</span>
+            <div class="mb-10">
+              <label>
+                <select class="form-control">
+                  <option>上限なし</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+              </label>
+            </div>
+          </div>
+          <div class="text-blue mb-0 font-weight-bold">間取りタイプ</div>
+          <div class="check-list d-flex justify-content-between flex-wrap">
+            <div class="form-check mb-0">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label ml-10" for="defaultCheck1">
+                1R･1K
+              </label>
+            </div>
+            <div class="form-check mb-0">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+              <label class="form-check-label ml-10" for="defaultCheck2">
+                1DK･1LDK
+              </label>
+            </div>
+            <div class="form-check mb-0">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+              <label class="form-check-label ml-10" for="defaultCheck3">
+                2DK以上
+              </label>
+            </div>
+          </div>
+          <div class="info d-none d-lg-block mt-5">
+            <button type="button" class="btn btn-primary mb-20 font-weight-bold">この条件で検索</button>
+            <div class="bg-light mb-10">運営会社</div>
+            <img src="assets/images/company-info.jpg" class="img-fluid mb-10" alt="">
+            <p class="text-container">
+              <span class="mb-10 font-weight-bold">株式会社アパマンPLAZA</span><br>
+              北海道知事 石狩 (8)第3992号<br>
+              〒064-0809<br>
+              札幌市中央区南9条西4丁目1－12<br>
+              TEL:011-513-0007<br>
+              FAX:011-513-7778<br>
+              <div class="d-flex"><span><img src="assets/images/icn-tel.png" class="img-fluid mr-5" alt=""></span><span
+            class="font-weight-bold text-primary"> 0120-015510<span class="text-dark font-weight-normal">（携帯可）</span></span><br></div>
+            <div class="d-flex"><span><img src="assets/images/icn-mail.png" class="img-fluid mr-5" alt=""> </span> <span>info2@apaman-plaza.co.jp</span></div><br>
+              国家資格名<br>
+              宅地建物取引士　11名<br>
+              マンション管理士　4名<br>
+              管理業務主任者　5名
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="detail company-info mt-40 d-lg-none">
+    <div class="row">
+      <div class="container">
+        <h3 class="h3 d-lg-none font-weight-bold text-center mb-20 text-dark">株式会社アパマンPLAZA</h3>
+        <div class="company-info__content">
+          <div class="company-info__image float-left">
+            <img src="assets/images/company-info.jpg" alt="" class="img-fluid">
+          </div>
+          <h3 class="h2 d-none d-lg-block">株式会社アパマンPLAZA</h3>
+          <p class="text-secondary mb-0 mb-lg-1">
+            北海道知事 石狩 (8) 第3992号</p>
+          <p class="text">
+            〒064-0809　<br class="d-lg-none">札幌市中央区南9条西4丁目1－12<br>
+            TEL：011-513-0007　<br class="d-lg-none">FAX：011-513-7778<br>
+            フリーダイヤル：0120-015510（携帯可）<br>
+            E-mail：<a href="mailto:info2@apaman-plaza.co.jp" class="text-primary">info2@apaman-plaza.co.jp</a>
+          </p>
+          <table class="table border-0">
+            <thead>
+            <tr>
+              <th colspan="2">国家資格名</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td scope="row">宅地建物取引士</td>
+              <td class="table-config">11名</td>
+            </tr>
+            <tr>
+              <td scope="row">マンション管理士</td>
+              <td class="table-config">4名</td>
+            </tr>
+            <tr>
+              <td scope="row">管理業務主任者</td>
+              <td class="table-config">5名</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<footer>
+  <div class="text-center">
+    <div class="bg-light d-none d-lg-block">
+      <a href="#">トップページ</a>｜<a href="#">賃貸物件検索</a>｜<a href="#">売買物件</a>｜<a href="#">家具・家電付マンション</a>｜<a href="#">物件リクエスト</a>｜<a href="#">部屋探し体験談</a>｜<a href="#">教えて!! Mr.アパマン</a>｜<a href="#">Ｑ＆Ａ</a>｜<br>
+      <p class="sub-content"><a href="#">メッセージ｜</a><a href="#">問合わせ・資料請求｜</a><a href="#">会社概要｜</a><a href="#">スタッフ紹介｜</a><a href="#">総合リンク｜</a><a href="#">お役立ちリンク｜</a><a href="#">採用情報｜</a><a href="#">お客様無料相談室</a></p>
+      <a href="#">アパマンプラザ｜</a><a href="#">札幌賃貸プラザ｜</a><a href="#">マンション投資の鉄人｜</a><a href="#">札幌不動産管理プラザ｜</a><a href="#">札幌マンスリーマンションプラザ｜</a><a href="#">札幌賃貸アパートマンション情報｜</a><br>
+      <p class="sub-content"><a href="#">札幌家具付きマンションAvenue｜</a><a href="#">札幌マンション学生賃貸square｜</a><a href="#">札幌中古マンションnet｜</a><a href="#">札幌インテリア</a></p>
+    </div>
+    <div class="bg-primary">
+      © 2004-2017 株式会社アパマンPLAZA
+    </div>
+  </div>
+</footer>
+<!-- end Web content -->
+<script src="assets/scripts/jquery-1.11.3.min.js"></script>
+<script src="assets/scripts/bootstrap.min.js"></script>
+<!--<script src="assets/scripts/slick.min.js"></script>-->
+<!-- build:js assets/scripts/main.min.js -->
+<script src="assets/scripts/main.js"></script>
+<!-- endbuild -->
+</body>
+</html>

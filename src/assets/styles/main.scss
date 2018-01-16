@@ -6,7 +6,6 @@
 
 @import "mixin";
 
-
 /*-------variable from bootstrap------*/
 @import "bootstrap/functions";
 @import "bootstrap/variables";
@@ -28,8 +27,13 @@
 
 @import "components/company-info";
 
+
 /*-------end components------*/
 
 @import "common";
+@import "list";
+@import "list-detail";
+@import "slick/slick";
+
 
 

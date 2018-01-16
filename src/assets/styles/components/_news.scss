@@ -6,8 +6,19 @@
     padding: 1.4rem;
   }
   .table tr td:first-child{
-    width: 20%;
+    width: 18%;
     text-align: center;
     min-width: 135px;
+    @include respond-to(800){
+      text-align: left;
+    }
+  }
+  .time{
+    @include respond-to(800){
+      display: block;
+      width: 100%;
+      text-align: left;
+      font-weight: bold;
+    }
   }
 }

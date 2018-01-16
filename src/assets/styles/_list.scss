@@ -1,0 +1,232 @@
+.list {
+  .h5 {
+    color: #333333;
+    font-weight: bolder;
+    display: inline-block;
+  }
+  .list-item {
+    list-style-type: none;
+  }
+  .recommend {
+    .row {
+      margin: 0;
+    }
+    .col-12 {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    &__list {
+      margin-top: 20px;
+      border-bottom: solid 1px #116cde;
+      &__item {
+        //width: 100%;
+      }
+    }
+  }
+  .drop-container {
+    position: absolute;
+    top: 75px;
+    left: 111px;
+    @include respond-to(992) {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+  }
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px #116cde;
+    padding-bottom: 15px;
+    > div {
+      @include respond-to(992) {
+        width: 100%;
+      }
+    }
+    .dropdown{
+      width: 200px;
+      margin-left: 20px;
+      align-self: self-start;
+      @include respond-to(992) {
+        height: 35px;
+        width: 100%;
+        margin-left: 0;
+        order:2;
+      }
+    }
+    .form-control {
+      @include respond-to(992) {
+        height: 35px !important;
+      }
+    }
+    .dropdown-toggle {
+      width: 200px;
+      text-align: left;
+    }
+  }
+  .first-item {
+    margin-left: 0;
+  }
+  .dropdown {
+    display: inline-block;
+    .btn {
+      border-radius: 0;
+      background-color: white;
+    }
+  }
+  .btn-secondary {
+    border-radius: 5px !important;
+    margin: 0 10px;
+  }
+  .option-display {
+    display: flex;
+    justify-content: space-between;
+    .btn {
+      padding: 0;
+    }
+    .btn-group {
+      height: 35px;
+      align-self: center;
+      @include respond-to(992) {
+        margin-right: 0 !important;
+        display: flex;
+        label {
+          width: 33.33333333333333%;
+        }
+        .d-lg-none {
+          margin: 0 -26%;
+        }
+      }
+    }
+    .btn-primary {
+      border-radius: 5px;
+      background: #276cc1;
+      border-color: #116cde;
+      box-shadow: 0 0 0 0.1rem rgba(12,79,163,.8);
+      margin-bottom: 0px;
+      padding-top: 5px;
+      padding-right: 20px;
+      padding-left: 20px;
+      @include respond-to(992) {
+        padding-right: 10%;
+        padding-left: 10%;
+      }
+      //width: 130px;
+    }
+  }
+  .page-menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 27px;
+    .h5 {
+      color: black;
+    }
+  }
+  .h3 {
+    color: #f03460;
+  }
+  .right-container {
+    //width: calc-percent(1349-260,1349);
+    @include respond-to(992){
+      width: 100%;
+    }
+  }
+  .left-side {
+    //padding-left: 0 !important;
+    //padding-right: 40px !important;
+    //width: calc-percent(260,1349);
+    @include respond-to(992){
+      width: 100%;
+    }
+    .bg-light {
+      height: 34px;
+      padding: 0 16px;
+      font-weight: 700;
+      line-height: 2.3;
+    }
+    .dropdown {
+      max-width: 100px;
+      &-toggle {
+        max-width: 100px;
+      }
+    }
+    .form-check {
+      //display: inline-block;
+      display: flex;
+      //align-items: center;
+      &-input {
+        margin-left: 0;
+        margin-top: 5px;
+      }
+    }
+    .btn {
+      margin: 0;
+      border-radius: 5px;
+      width: 100%;
+      border: 2px solid #116cde;
+    }
+    .text-blue {
+      color: #116cde;
+    }
+    .text-container {
+      font-size: 1.4rem;
+    }
+  }
+  .page{
+    &-item {
+      width: 40px;
+      height: 30px;
+      text-align: center;
+      margin: 0 .5rem;
+      font-size: 2rem;
+    }
+    &-link {
+      border-radius: 5px !important;
+      padding: .75rem;
+    }
+  }
+  @include respond-to(992){
+    .option-display{
+      display: block;
+      background-color: inherit !important;
+      margin-bottom: 10px !important;
+    }
+  }
+  .menu{
+    .menu-item{
+      //width: inherit;
+      @include respond-to(992){
+        //width: 50%;
+        width: 49%;
+      }
+      &.option-display{
+        order: -1;
+        width: 100%;
+        @include respond-to(992){
+          order: 0;
+          width: 49%;
+        }
+      }
+    }
+  }
+}
+
+.container-sp  {
+  padding-left: 0;
+  padding-right: 0;
+}
+.btn-condition {
+  padding: .45rem 1rem;
+  margin: 0;
+  border-radius: 5px;
+  width: 100%;
+  border: 2px solid #0053bc;
+  border-top: 0;
+}
+.btn-primary:not([disabled]):not(.disabled).active, .btn-primary:not([disabled]):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #003A7A;
+  border-color: #0c4fa3;
+  box-shadow: 0 0 0 0.1rem rgba(0,58,122,.8);
+}

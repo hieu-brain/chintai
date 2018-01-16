@@ -26,4 +26,11 @@
       font-weight: bold;
     }
   }
+  &.detail{
+    max-width: 900px;
+    margin: 0 auto;
+    .company-info__image{
+      width: 45%;
+    }
+  }
 }

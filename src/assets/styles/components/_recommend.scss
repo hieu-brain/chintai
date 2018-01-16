@@ -1,12 +1,14 @@
 .recommend{
+  color: #555555;
   &__title{
     display: flex;
     align-items: center;
-    font-weight: bold;
+    font-weight: 600;
     .chintai{
       margin: 15px;
       border: 1px solid $white;
       padding: 2px 15px;
+      min-width: 75px;
     }
   }
   &__list{
@@ -73,10 +75,17 @@
       }
       .text{
         text-align: center;
+        @include respond-to(800){
+          font-size: 1.4rem !important;
+        }
       }
       .prize{
         font-weight: bold;
         color: $pink;
+      }
+      .fee{
+        font-weight: bold;
+        color: #116cde;
       }
       &.item--lg{
         width: calc-percent(740, 1260);

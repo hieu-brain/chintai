@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>TOP</title>
+  <title>List detail</title>
 
   <meta name="viewport"
         content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
@@ -18,25 +18,27 @@
   <link rel="stylesheet" href="assets/styles/bootstrap/bootstrap.css">
   <link rel="stylesheet" href="assets/styles/main.css">
 </head>
-<body class="top">
-<header class="header">
+<body class="list-detail">
+<header class="header d-none d-lg-block">
   <div class="bg-primary">
     <div class="container">
-      <p class="text-white text-center mb-0 pt-1 d-none d-lg-block" style="padding-bottom: 2px;">
-        <small><strong>札幌マンション情報、札幌中古マンション・札幌市賃貸マンション、マンスリーマンション・アパート、投資用マンション、家具家電付賃貸マンション・賃貸アパート、札幌短期賃貸マンションは保証人なしでも入居可能です。
-          </strong></small>
+      <p class="text-white text-center mb-0 pt-1" style="padding-bottom: 2px;">
+        <small>札幌の中古マンション・賃貸マンション、マンスリーマンション・アパート、投資用マンション、家具家電付賃貸マンション・アパート、短期賃貸マンション。保証人なしでも入居可能。</small>
       </p>
     </div>
   </div>
   <div class="container">
     <div class="row">
       <div class="logo col-lg-4 mt-30">
-        <img src="assets/images/logo.png" alt="" class="img-fluid">
-        <p class="mt-15"><strong>APAMAN PLAZA</strong></p>
+        <h1>
+          <img src="assets/images/logo.png" alt="アパマンプラザ" class="img-fluid">
+          <span class="d-none">アパマンプラザ</span>
+          <span><strong>APAMAN PLAZA</strong></span>
+        </h1>
       </div>
       <div class="col-lg-8 d-none d-lg-block">
         <div class="row text-right d-flex justify-content-end mt-20">
-          <span class="telephone mt-10"><img src="assets/images/phone.png" class="img-fluid" alt=""></span>
+          <span class="telephone"><img src="assets/images/phone.png" class="img-fluid" alt="phone"></span>
           <p class="phone-number text-black ml-2"><strong>011-513-0007</strong></p>
         </div>
         <div class="row text-right d-flex justify-content-end phone-text">
@@ -51,7 +53,17 @@
 </header>
 <nav class="navbar navbar-expand-lg bg-light text-black">
   <div class="container d-flex align-items-center">
-    <div class="navbar-left">
+    <div class="navbar-left mb-0">
+      <div class="navbar-tool">
+        <div class="navbar-tool__inner d-flex justify-content-between">
+          <a class="navbar-brand d-lg-none" href="#"><img src="assets/images/logo.png" class="img-fluid" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+                  aria-controls="navbar"
+                  aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><img src="assets/images/menu-btn.png" alt="" class="img-fluid"></span>
+          </button>
+        </div>
+      </div>
       <div class="collapse navbar-collapse" id="navbar">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
@@ -71,38 +83,364 @@
           </li>
         </ul>
       </div>
-      <a class="navbar-brand d-lg-none" href="#"><img src="assets/images/logo.png" alt=""></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
-              aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
     </div>
     <div class="navbar-right text-right">
-      <div class="text-right d-flex justify-content-end">
-        <p class="mb-0">営業時間】 9:15～19:00　<span class="text-pink">日曜日を定休日</span>とさせていただきます。<span class="text-pink">祝日は営業</span>しております。</p>
+      <div class="text-right d-lg-flex justify-content-end d-none">
+        <p class="mb-0">【営業時間】 9:15～19:00　<span class="text-pink">日曜日を定休日</span>とさせていただきます。<span
+          class="text-pink">祝日は営業</span>しております。</p>
+      </div>
+      <div class="text-center d-lg-none d-flex justify-content-center">
+        <p class="mb-5 mt-5 mt-lg-10 mb-lg-10">【営業時間】9:15～19:00　<span class="text-pink">日曜定休・祝日営業</span></p>
       </div>
     </div>
   </div>
 </nav>
-<div class="container mt-30">
-  <div class="row title">
-    <div class="type">
-      マンション
+<div class="container mt-lg-30">
+  <div class="row row-justify">
+    <div class="col-12 bg-primary option-display justify-content-between">
+      <h1 class="flex title-wrapper">
+        <span class="bg-info text-white text-center p-15 font-weight-bold d-none d-lg-block">マンション</span>
+        <span class="bg-primary text-row  row-justify text-white text-center font-weight-bold d-none d-lg-block h2">ファミール中島公園 000号室（1DK/1階/賃料5.5万円）</span>
+        <span class="bg-primary text-white text-center p-15 font-weight-bold d-lg-none d-block">ファミール中島公園 000号室</span>
+      </h1>
+      <p class="bg-white text-pad text-primary d-none d-lg-block font-weight-bold"><i class="fa fa-print"
+                                                                                      aria-hidden="true"></i> 物件概要を印刷
+      </p>
     </div>
-    <h1>ファミール中島公園 000号室（1DK/1階/賃料5.5万円）<a name="" id="" class="btn btn-secondary" href="#" role="button"><i class="fa fa-print" aria-hidden="true"></i> 物件概要を印刷</a></h1>
+    <div class="w-100 bg-light flex justify-content-between inner-contain d-none d-lg-flex">
+      <div>
+        <div>
+          <button type="button" class="btn btn-sm font-weight-bold btn-title mb-10 mr-10">住所</button>
+          <span class="h4">札幌市中央区南8条西1丁目1-1</span></div>
+        <div>
+          <button type="button" class="btn btn-sm font-weight-bold btn-title mr-10">最寄駅</button>
+          <span class="h4">地下鉄 南北線 中島公園駅　徒歩7分</span></div>
+      </div>
+      <div>
+        <a href="#"><img src="assets/images/detail-btn-1.png" class="img-fluid" alt="空室状況を無料お問合わせ"></a>
+        <a href="#"><img src="assets/images/detail-btn-2.png" class="img-fluid" alt="見学を予約する"></a>
+      </div>
+    </div>
   </div>
-  <div class="row">
-    <div class="col-12 col-lg-6"></div>
-    <div class="col-12 col-lg-6"></div>
+  <div class="row mt-20 flex justify-content-between w-100 mx-auto">
+    <div class="d-lg-none d-flex contain-header align-items-center mb-20 justify-content-start padding-content">
+      <div class="bg-info text-white text-center p-15 font-weight-bold mr-10 bg-btn">マンション</div>
+      <p class="font-weight-bold mb-0">1DK / 1階 / 賃料 <span class="text-pink h3 font-weight-bold">5.5</span><span
+        class="text-pink">万円</span></p>
+    </div>
+    <div class="left-side padding-content">
+      <div class="sliderrr">
+        <div class="slider-nav-main slider-nav-js">
+          <div class="slider slider-for">
+            <div><img class="img-fluid" src="assets/images/detail_img_01.jpg"></div>
+            <div><img class="img-fluid" src="assets/images/detail_img_02.jpg"></div>
+            <div><img class="img-fluid" src="assets/images/detail_img_03.jpg"></div>
+            <div><img class="img-fluid" src="assets/images/detail_img_04.jpg"></div>
+            <div><img class="img-fluid" src="assets/images/detail_img_05.jpg"></div>
+            <div><img class="img-fluid" src="assets/images/detail_img_06.jpg"></div>
+          </div>
+          <div class="slider slider-nav d-none d-lg-block">
+            <div><img class="img-fluid" src="assets/images/detail_img_02.jpg"></div>
+            <div><img class="img-fluid" src="assets/images/detail_img_02.jpg"></div>
+            <div><img class="img-fluid" src="assets/images/detail_img_03.jpg"></div>
+            <div><img class="img-fluid" src="assets/images/detail_img_04.jpg"></div>
+            <div><img class="img-fluid" src="assets/images/detail_img_05.jpg"></div>
+            <div><img class="img-fluid" src="assets/images/detail_img_06.jpg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="side-contact mt-40 py-20 d-none d-lg-flex">
+        <div class="side-contact--left">
+          <span class="w-100 d-block text-white bg-primary font-weight-bold text-center py-5">お問合わせ先</span>
+          <img src="assets/images/company-info.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="side-contact--right">
+          <p class="h2 font-weight-bold">株式会社アパマンプラザ</p>
+          <p class="phone mb-10 text-primary h2 font-weight-bold"><img src="assets/images/detail-icon.png"
+                                                                       class="img-fluid" alt=""> 0120-015510</p>
+          <p class="text mb-10">TEL:011-513-0007<br>
+            FAX:011-513-7778<br>
+            E-mail: <a href="mailto:info2@apaman-plaza.co.jp" class="text-primary">info2@apaman-plaza.co.jp</a></p>
+        </div>
+        <div class="side-contact-button mt-20 w-100 text-center">
+          <a href="#"><img src="assets/images/detail-btn-1.png" class="img-fluid" alt="空室状況を無料お問合わせ"></a>
+        </div>
+      </div>
+    </div>
+    <div class="right-side">
+      <div class="w-100 bg-light flex justify-content-between inner-contain d-lg-none flex-wrap p-20" style="height: auto">
+        <a href="#" class="text-center mb-10 contact-btn-sp"> <img src="assets/images/contact-sp-btn.png" alt=""
+                                                                   class="img-fluid"></a>
+        <div>
+          <div>
+            <button type="button" class="btn btn-sm font-weight-bold btn-title mb-10 mr-10">住所</button>
+            <span class="font-weight-bold text-font">札幌市中央区南8条西1丁目1-1</span></div>
+          <div>
+            <button type="button" class="btn btn-sm font-weight-bold btn-title mr-10">最寄駅</button>
+            <span class="font-weight-bold text-font">地下鉄 南北線 中島公園駅　徒歩7分</span></div>
+        </div>
+      </div>
+      <div class="title-info flex mb-30 mt-30 mt-lg-0 padding-content">
+        <img class="mr-15" src="assets/images/point.png" alt="">
+        <p class="font-weight-bold h5">ファミール中島公園は地下鉄南北線中島公園駅まで徒歩５分、中島公園までは目の前の徒歩１分、すすきのまででも徒歩９分です。</p>
+      </div>
+      <div class="list-detail-table-title padding-content">
+        <table border="1" class="talbe-width">
+          <tr class="table-dark">
+            <td colspan="2" class="text-center h5 table__title py-10">物件概要</td>
+          </tr>
+        </table>
+      </div>
+      <div class="d-flex flex-wrap list-detail-table d-block d-lg-none mb-20 padding-content">
+        <table border="1" class="talbe-width">
+          <tr class="head-th">
+            <th class="title"></th>
+            <th class="content"></th>
+          </tr>
+          <tr>
+            <td class="title bg-light text-center">賃料</td>
+            <td class="content h3 text-danger">5.5万円</td>
+          </tr>
+          <tr>
+            <td class="title bg-light text-center">共益費</td>
+            <td class="content">8,000円</td>
+          <tr>
+            <td class="title bg-light text-center">間取り</td>
+            <td class="content">2DK(8+4.5+4.5帖)</td>
+          </tr>
+          <tr>
+            <td class="title bg-light text-center">敷金・礼金</td>
+            <td class="content">1ヶ月 / なし</td>
+          </tr>
+          <tr>
+            <td class="title bg-light text-center">所在地</td>
+            <td class="content">札幌市中央区南11条西1丁目3-17</td>
+          </tr>
+          <tr>
+            <td class="title bg-light text-center">交通機関</td>
+            <td class="content">地下鉄 南北線 中島公園駅 徒歩4分</td>
+          </tr>
+        </table>
+      </div>
+      <div class="d-flex flex-wrap list-detail-table d-block d-lg-none padding-content">
+        <table border="2" class="talbe-width">
+          <tr class="head-th">
+            <th class="title"></th>
+            <th class="content"></th>
+          </tr>
+          <tr>
+            <td class="title bg-light text-center">種別</td>
+            <td class="content">家具付マンション</td>
+          </tr>
+          <tr>
+            <td class="title bg-light text-center">物件名</td>
+            <td class="content">ファミール中島公園</td>
+          </tr>
+          <tr>
+            <td class="title bg-light text-center">駐車場</td>
+            <td class="content">月額12,000円（空待ち）</td>
+          </tr>
+          <tr>
+            <td class="title bg-light text-center">構造</td>
+            <td class="content">SRC</td>
+          </tr>
+          <tr>
+            <td class="title bg-light text-center">階床</td>
+            <td class="content">11階建の9階</td>
+          </tr>
+          <tr>
+            <td class="title bg-light text-center">入居可能日</td>
+            <td class="content">即日</td>
+          </tr>
+          <tr>
+            <td class="title bg-light text-center">付帯設備</td>
+            <td class="content">風呂, シャワー, WC, エレベーター</td>
+          </tr>
+          <tr>
+            <td class="title bg-light text-center">付帯家具家電</td>
+            <td class="content">冷蔵庫、洗濯機、電子レンジ、掃除機、テレビ、ソファ、センターテーブル、ワードローブ、食器棚、ダイニングテーブル、ガスコンロ、カーテン、照明器具、独立洗面台<br>
+              <a href="#" class="text-primary">ご希望の方には寝具類の販売もしております</a></td>
+          </tr>
+          <tr>
+            <td class="title bg-light text-center">ネット設備</td>
+            <td class="content"><img src="assets/images/detail-icon-2.jpg" class="img-fluid mb-1" alt=""> <br><img
+              src="assets/images/detail-icon-1.jpg" class="img-fluid" alt=""></td>
+          </tr>
+          <tr>
+            <td class="title bg-light text-center">付近の学校</td>
+            <td class="content">北海学園大学<br>
+              日本エステティック専門学校<br>
+              札幌ランゲージセンター日本語科
+            </td>
+          </tr>
+          <tr>
+            <td class="title bg-light text-center">備考</td>
+            <td colspan="3" class="content">◆灯油FF暖房　◆フローリング<br>
+              ◆中島公園を一望可能<br>
+              ◇1階にセイコーマート
+            </td>
+          </tr>
+        </table>
+      </div>
+      <table border="1" class="talbe-width w-100 mb-15 d-lg-table d-none">
+        <tr>
+          <td class="title bg-light text-center">賃料</td>
+          <td class="content h3 text-danger">5.5万円</td>
+          <td class="title bg-light text-center">間取り</td>
+          <td class="content">2DK(8+4.5+4.5帖)</td>
+        </tr>
+        <tr>
+          <td class="title bg-light text-center">共益費</td>
+          <td class="content">8,000円</td>
+          <td class="title bg-light text-center">敷金・礼金</td>
+          <td class="content">1ヶ月 / なし</td>
+        </tr>
+        <tr>
+          <td class="title bg-light text-center">所在地</td>
+          <td class="content">札幌市中央区南11条西1丁目3-17</td>
+          <td class="title bg-light text-center">交通機関</td>
+          <td class="content">地下鉄 南北線 中島公園駅 徒歩4分</td>
+        </tr>
+      </table>
+      <table border="1" class="talbe-width w-100 d-lg-table d-none mt-10">
+        <tr>
+          <td class="title bg-light text-center">種別</td>
+          <td class="content">家具付マンション</td>
+          <td class="title bg-light text-center">構造</td>
+          <td class="content">SRC</td>
+        </tr>
+        <tr>
+          <td class="title bg-light text-center">物件名</td>
+          <td class="content">ファミール中島公園</td>
+          <td class="title bg-light text-center">階床</td>
+          <td class="content">11階建の9階</td>
+        </tr>
+        <tr>
+          <td class="title bg-light text-center">駐車場</td>
+          <td class="content">月額12,000円（空待ち）</td>
+          <td class="title bg-light text-center">入居可能日</td>
+          <td class="content">即時</td>
+        </tr>
+        <tr>
+          <td class="title bg-light text-center">付帯設備</td>
+          <td class="content">風呂, シャワー, WC, エレベーター</td>
+          <td class="title bg-light text-center">付帯家具家電</td>
+          <td class="content">冷蔵庫、洗濯機、電子レンジ、掃除機、テレビ、ソファ、センターテーブル、ワードローブ、食器棚、ダイニングテーブル、ガスコンロ、カーテン、照明器具、独立洗面台<br><a
+            href="#">&#60;ご希望の方には寝具類の販売もしております &#62</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="title bg-light text-center">ネット設備</td>
+          <td class="content"><img src="assets/images/detail-icon-2.jpg" class="img-fluid mb-1" alt=""> <br><img
+            src="assets/images/detail-icon-1.jpg" class="img-fluid" alt=""></td>
+          <td class="title bg-light text-center">付近の学校</td>
+          <td class="content">北海学園大学<br>
+            日本エステティック専門学校<br>
+            札幌ランゲージセンター日本語科
+          </td>
+        </tr>
+        <tr>
+          <td class="title bg-light text-center">備考</td>
+          <td colspan="3" class="content">◆灯油FF暖房　◆フローリング<br>
+            ◆中島公園を一望可能<br>
+            ◇1階にセイコーマート
+          </td>
+        </tr>
+      </table>
+      <div class="contact-sp d-lg-none mt-20 p-20">
+        <p class="h4 font-weight-bold text-center"><span class="text-primary">資料請求・内覧希望</span>など<br>お気軽にご連絡ください！</p>
+        <a href="#" class="text-center mb-10 contact-btn-sp"> <img src="assets/images/contact-sp-btn.png" alt=""
+                                                                   class="img-fluid"></a>
+      </div>
+      <div class="right-side__sub-content mt-40 padding-content">
+        <div class="right-side__sub-content__title w-100">部屋の特長・コメント</div>
+        <div class="right-side__sub-content__text">
+          <p class="mt-20">目の前の中島公園は、憩いの場としても有名で、公園内には札幌コンサートホール（ｋｉｔａｒａ）、豊平館、道立文学館、冬のスポーツ博物館、球技場、体育センター、などがあります。<br>
+            ホテル従業員、会社員、ＯＬ、飲食業、調理師、学生、出張先のホテル代わり（セカンドルーム）などに人気の場所です。</p>
+          <p class="mt-20">マンション1階にはコンビニのセイコーマートがあり便利です。<br>
+            室内は西向きにバルコニーがあり中島公園が一望でき日当りも良好です。床はフローリングです。<br>
+            家具・家電付で冷蔵庫、テレビ、電子レンジ、ベッド、カーテン、ソファ、テーブル、掃除機、ガスコンロ、ワードローブを設置していますで手軽に入居できます。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mt-40 access">
+    <div class="access__title">
+      <h2>アクセス / ACCESS</h2>
+    </div>
+    <div class="access__content">
+      <div class="access__map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12963.068276761913!2d139.70034572575682!3d35.68273704473097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sjp!4v1515154045245" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+      <div class="access__image">
+        <img src="assets/images/detail-access.jpg" class="img-fluid" alt="">
+      </div>
+    </div>
+    <div class="contact-sp d-lg-none  p-20">
+      <p class="h4 font-weight-bold text-center"><span class="text-primary">資料請求・内覧希望</span>など<br>お気軽にご連絡ください！</p>
+      <a href="#" class="text-center mb-10 contact-btn-sp"> <img src="assets/images/contact-sp-btn.png" alt=""
+                                                                 class="img-fluid"></a>
+    </div>
+  </div>
+  <section class="detail company-info mt-40">
+    <div class="row padding-content">
+      <div class="container padding-content">
+        <h3 class="h3 d-lg-none font-weight-bold text-center mb-20">株式会社アパマンPLAZA</h3>
+        <div class="company-info__content">
+          <div class="company-info__image float-left">
+            <img src="assets/images/company-info.jpg" alt="" class="img-fluid">
+          </div>
+          <h3 class="h2 d-none d-lg-block">株式会社アパマンPLAZA</h3>
+          <p class="text-secondary mb-0 mb-lg-1">
+            北海道知事 石狩 (8) 第3992号</p>
+          <p class="text">
+            〒064-0809　<br class="d-lg-none">札幌市中央区南9条西4丁目1－12<br>
+            TEL：011-513-0007　<br class="d-lg-none">FAX：011-513-7778<br>
+            フリーダイヤル：0120-015510（携帯可）<br>
+            E-mail：<a href="mailto:info2@apaman-plaza.co.jp" class="text-primary">info2@apaman-plaza.co.jp</a>
+          </p>
+          <table class="table border-0">
+            <thead>
+            <tr>
+              <th colspan="2">国家資格名</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td scope="row">宅地建物取引士</td>
+              <td class="table-config">11名</td>
+            </tr>
+            <tr>
+              <td scope="row">マンション管理士</td>
+              <td class="table-config">4名</td>
+            </tr>
+            <tr>
+              <td scope="row">管理業務主任者</td>
+              <td class="table-config">5名</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="row detail-list-btn d-lg-flex justify-content-center mt-40 d-none">
+    <a href="#"><img src="assets/images/detail-btn-1.png" class="img-fluid mr-30" alt="空室状況を無料お問合わせ"></a>
+    <a href="#"><img src="assets/images/detail-btn-2.png" class="img-fluid" alt="見学を予約する"></a>
   </div>
 </div>
 <footer>
   <div class="text-center">
-    <div class="bg-light">
-        <a href="#">トップページ</a>｜<a href="#">賃貸物件検索</a>｜<a href="#">売買物件</a>｜<a href="#">家具・家電付マンション</a>｜<a href="#">物件リクエスト</a>｜<a href="#">部屋探し体験談</a>｜<a href="#">教えて!! Mr.アパマン</a>｜<a href="#">Ｑ＆Ａ</a>｜<br>
-        <p class="sub-content"><a href="#">メッセージ｜</a><a href="#">問合わせ・資料請求｜</a><a href="#">会社概要｜</a><a href="#">スタッフ紹介｜</a><a href="#">総合リンク｜</a><a href="#">お役立ちリンク｜</a><a href="#">採用情報｜</a><a href="#">お客様無料相談室</a></p>
-      <a href="#">アパマンプラザ｜</a><a href="#">札幌賃貸プラザ｜</a><a href="#">マンション投資の鉄人｜</a><a href="#">札幌不動産管理プラザ｜</a><a href="#">札幌マンスリーマンションプラザ｜</a><a href="#">札幌賃貸アパートマンション情報｜</a><br>
-      <p class="sub-content"><a href="#">札幌家具付きマンションAvenue｜</a><a href="#">札幌マンション学生賃貸square｜</a><a href="#">札幌中古マンションnet｜</a><a href="#">札幌インテリア</a></p>
+    <div class="bg-light d-none d-lg-block">
+      <a href="#">トップページ</a>｜<a href="#">賃貸物件検索</a>｜<a href="#">売買物件</a>｜<a href="#">家具・家電付マンション</a>｜<a
+      href="#">物件リクエスト</a>｜<a href="#">部屋探し体験談</a>｜<a href="#">教えて!! Mr.アパマン</a>｜<a href="#">Ｑ＆Ａ</a>｜<br>
+      <p class="sub-content"><a href="#">メッセージ｜</a><a href="#">問合わせ・資料請求｜</a><a href="#">会社概要｜</a><a
+        href="#">スタッフ紹介｜</a><a href="#">総合リンク｜</a><a href="#">お役立ちリンク｜</a><a href="#">採用情報｜</a><a href="#">お客様無料相談室</a>
+      </p>
+      <a href="#">アパマンプラザ｜</a><a href="#">札幌賃貸プラザ｜</a><a href="#">マンション投資の鉄人｜</a><a href="#">札幌不動産管理プラザ｜</a><a href="#">札幌マンスリーマンションプラザ｜</a><a
+      href="#">札幌賃貸アパートマンション情報｜</a><br>
+      <p class="sub-content"><a href="#">札幌家具付きマンションAvenue｜</a><a href="#">札幌マンション学生賃貸square｜</a><a href="#">札幌中古マンションnet｜</a><a
+        href="#">札幌インテリア</a></p>
     </div>
     <div class="bg-primary">
       © 2004-2017 株式会社アパマンPLAZA
@@ -112,6 +450,27 @@
 <!-- end Web content -->
 <script src="assets/scripts/jquery-1.11.3.min.js"></script>
 <script src="assets/scripts/bootstrap.min.js"></script>
+<script src="assets/scripts/slick.min.js"></script>
+<script>
+  $('.slider-for').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    fade: true,
+    asNavFor: '.slider-nav',
+    nextArrow: '<button type="button" class="slick-next"><i class="fa fa-angle-right" aria-hidden="true"></i>\n</button>',
+    prevArrow: '<button type="button" class="slick-prev"><i class="fa fa-angle-left" aria-hidden="true"></i>\n</button>',
+  });
+  $('.slider-nav').slick({
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    asNavFor: '.slider-for',
+    arrows: false,
+    dots: false,
+    centerMode: false,
+    focusOnSelect: true
+  });
+</script>
 <!-- build:js assets/scripts/main.min.js -->
 <script src="assets/scripts/main.js"></script>
 <!-- endbuild -->

@@ -9,6 +9,9 @@
 }
 .carousel-indicators{
   margin-bottom: 0;
+  @include respond-to(900){
+    margin-bottom: -8px;
+  }
 }
 .carousel-indicators li{
   display: inline-block;
@@ -22,10 +25,10 @@
   border-radius: 20px;
   margin: 7.5px;
   @include respond-to(700){
-    width: 10px;
-    height: 10px;
-    border-radius: 10px;
-    margin: 3px;
+    width: 9px;
+    height: 9px;
+    border-radius: 9px;
+    margin: 2px 4px;
   }
 }
 .carousel-indicators .active{
@@ -59,3 +62,40 @@ a:hover{
     opacity: 0.8;
   }
 }
+.page-link{
+  border: none;
+  &.bg-secondary{
+    background-color: #cecece !important;
+  }
+  &.bg-light{
+    background-color: #f7f7f7!important;
+  }
+}
+.page-item{
+  &.active{
+    background-color: transparent;
+    .page-link{
+      color: $primary !important;
+      background-color: transparent !important;
+    }
+  }
+}
+.description{
+  @include respond-to(990) {
+    font-size: 1.5rem;
+  }
+}
+
+@include respond-to(990) {
+  .search .row{
+    display: flex !important;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    .item{
+      padding: 0;
+      width: 48%;
+    }
+  }
+}
+
